@@ -3,6 +3,7 @@
 function palindrome(str){
 
 	str = str.replace(/ /g,"");
+	 str = str.toLowerCase();
 	
      let l=0, r= str.length-1;
 
